@@ -9,10 +9,10 @@
 ### Step 3
  - replace default values: 
  
-    **address**=<add_wallet_address>          | ex: desmos1...    
+    **address**=<add_wallet_address>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ex: desmos1...    
     **operatorAddress**=<validator_address>   | ex: desmosvaloper...   
-    **coin**=udaric    
-    **binary**=desmos    
+    **coin**=<coin_denom> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ex: udaric    
+    **binary**=<binary_name>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | ex: desmos    
     **fees**=250${coin}    
     **keyName**=<key_name>
     
