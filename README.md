@@ -8,11 +8,12 @@
 
 ### Step 3
  - replace default values: 
-    **address**=<add_wallet_address>          | ex: desmos1...
-    **operatorAddress**=<validator_address>   | ex: desmosvaloper...
-    **coin**=udaric
-    **binary**=desmos
-    **fees**=250${coin}
+ 
+    **address**=<add_wallet_address>          | ex: desmos1...    
+    **operatorAddress**=<validator_address>   | ex: desmosvaloper...   
+    **coin**=udaric    
+    **binary**=desmos    
+    **fees**=250${coin}    
     **keyName**=<key_name>
     
 ### Step 4
