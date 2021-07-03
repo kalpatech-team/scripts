@@ -19,7 +19,7 @@ do
     echo "$(date) About to withdraw commission and reward"
     echo $PASSWORD | desmos tx distribution withdraw-rewards ${operatorAddress} --commission --from ${keyName} --gas auto --chain-id=$(cat ~/.${binary}/config/genesis.json  | jq -r .chain_id) --fees ${fees} --node ${node} -y
 
-    sleep 60
+    sleep 1m
 
     # GET available balance
     amount=$(${binary} q bank balances ${address} --chain-id=$(cat ~/.${binary}/config/genesis.json --node ${node} | jq -r .chain_id) -o json | jq -r '.balances[0].amount')
